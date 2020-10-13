@@ -48,6 +48,8 @@
           !
           write
           !
+          
+ ![image](https://drive.google.com/uc?export=view&id=1mwVrZ0NmdRG_kJVjcWoYrQptPUKCs3sy)
 #### Crear VLAN 10, 20 en todos los ESW capa 3
     VLAN 10: VENTAS 
     VLAN 20: CONTABILIDAD
@@ -62,7 +64,7 @@
           !
           write
           !
-
+![image](https://drive.google.com/uc?export=view&id=17yHFXUw3RYqgofveHjnCAvW9DHH8axj4)
 # Configurar y crear los siguientes port-channel
      Po1: entre ESW1 y ESW2
      Po2: entre ESW1 y ESW3
@@ -92,14 +94,14 @@
 
      sh interfaces port-channel 3
      
-     
+![image](https://drive.google.com/uc?export=view&id=131V9Z6Ao8pt7ES55Cis6i89_43GB9KT8)    
 # Verificar que switch es el root bridge (STP) y que puertos están bloqueados por Spanning-tree.
 
      aplicar el comando ->sh spanning-tree brief
      
      BUSCAR LOS PUERTOS QUE ESTAN BLOQUEADOS POR EL PROTOCOLO
      
-     
+ ![image](https://drive.google.com/uc?export=view&id=1AmCjgYAg8-jT34G6pqzdkS8JRFU6MMmS)        
 
 # Configurar las Subinterfaces del router con la dirección Gateway de los hosts de cada red proporcionada más adelante
 
@@ -115,4 +117,8 @@
      encapsulatio dot1Q 20
      ip address 192.168.20.254 255.255.255.0
 
-     
+ ![image](https://drive.google.com/uc?export=view&id=1YYkW6dYOrIsvcoAPLEvXRnBhTw1ynzKY)   
+# Configurar los routes CAPA 2 en modo acceso (los puertos que conectan a las VPCs y modo troncal los puestor que conectan a los ESW)
+ ![image](https://drive.google.com/uc?export=view&id=1vGveklwrKzJjDuEtZq08e2igfsA7c7G5) 
+
+   
