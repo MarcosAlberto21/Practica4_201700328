@@ -1,4 +1,10 @@
 # Practica4_201700328 - Creacion de router on stick 
+
+#### Conguración de la red
+VLAN	 Dirección de red	       Primera Direccion asignable	     Última dirección asignable          Dirrección de Broadcast
+10	   192.168.18.0/24	        192.168.18.1/24	                 192.168.18.254/24	                  192.168.18.254/24
+20	   192.168.28.0/24	        192.168.28.1/24	                 192.168.28.254/24	                  192.168.28.254/24
+
 #### Modelo
 
  ![image](https://drive.google.com/uc?export=view&id=1YNCwqQwSranoYaojTEHtNGa_EQXwRZ9a)
