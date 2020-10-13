@@ -1,12 +1,25 @@
 # Practica4_201700328 - Creacion de router on stick 
 
-# Configurar los modos de acceso y/o troncal en ESW1, ESW2, ESW3 que
-#correspondan para garantizar el tráfico de VLAN
+# Configurar los modos de acceso y/o troncal en ESW1, ESW2, ESW3 que correspondan para garantizar el tráfico de VLAN
 # Configuración de VTP
 #### Colocar como dominio y contraseña: redes1_<carné>
      Modo servidor en ESW1
+     comandos:
+     
      Modo cliente en ESW2, ESW3
-     Crear VLAN 10, 20
+     comandos:
+     vlan database
+          !
+          vtp domain redes1_201700328
+          vtp password redes1_201700328
+          vtp V2-mode
+          vtp SERVER
+          !
+          exit
+          !
+          write
+          !
+#### Crear VLAN 10, 20
     VLAN 10: VENTAS 
     VLAN 20: CONTABILIDAD
 # Configurar y crear los siguientes port-channel
