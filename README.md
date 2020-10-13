@@ -8,7 +8,7 @@
 #### configuracion trunk a los SW capa 3
           comandos:
           conf t
-          interface range fastEthernet 1/0 -15 
+          interface range fastEthernet 1/0 - 15 
           speed 100
           duplex full
           switchport mode trunk
@@ -18,7 +18,7 @@
           write
           !
 
-     
+ ![image](https://drive.google.com/uc?export=view&id=1h3K5BRnEkk0WXSPbotkohsaFC0KKfG0U)
 
 # Configuración de VTP
 #### Colocar como dominio y contraseña: redes1_<carné>
